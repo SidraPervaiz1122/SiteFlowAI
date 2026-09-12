@@ -29,18 +29,19 @@ SiteFlow AI is an AI-powered construction project-control platform for residenti
 
 ## Architecture & Workflow Diagram
 
-```text
-[CONTRACTOR] 
-  └── Creates Check Request (Attaches evidence)
-       └── Submits for Inspection
-            └── AI Pre-Review (Advisory: Readiness, risk indicators)
-                 └── [RESIDENT ENGINEER] Inspects on-site
-                      └── Drafts observations & Accepts/Rejects
-                           └── [CONTRACTOR] Submits actual measured quantity
-                                └── [RESIDENT ENGINEER] Approves quantity (Atomic: Approved Qty <= Remaining Qty)
-                                     └── [CLIENT] Performs independent review
-                                          └── [CLIENT] Approves work
-                                               └── IPC Generated from Authoritative Quantities
+```mermaid
+graph TD
+    A[Contractor] -->|Creates Check Request & Attaches Evidence| B[Inspection Pending]
+    B -->|AI Pre-Review| C[Resident Engineer]
+    C -->|Inspects on-site, Drafts Observations & Accepts/Rejects| D{Accepted?}
+    D -- Yes --> E[Quantity Submission]
+    D -- No --> A
+    E -->|Contractor Submits Actual Measured Quantity| F[Quantity Approval]
+    F -->|Resident Engineer Approves Qty| G{Qty Valid?}
+    G -- Yes: Approved Qty <= Remaining Qty --> H[Client Review]
+    G -- No --> E
+    H -->|Client Approves Work| I[IPC Generation]
+    I -->|Generated from Authoritative Quantities| J[Interim Payment Certificate]
 ```
 
 ## Getting Started
