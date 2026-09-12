@@ -1,16 +1,36 @@
 import os
+import logging
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from backend.app.config import settings
-from backend.app.database import engine, Base
+from backend.app.database import engine, Base, SessionLocal
 import backend.models # Ensure all models are registered
 from backend.api.router import api_router
 from backend.core.exceptions import SiteFlowException
+from backend.models.user import User
+from backend.db.seed import seed_database
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Initialize database schema
 Base.metadata.create_all(bind=engine)
+
+# Idempotently seed database on startup
+try:
+    db = SessionLocal()
+    if not db.query(User).first():
+        logger.info("No users found in database. Running automatic seed script...")
+        seed_database(reset=False)
+        logger.info("Automatic seed script completed.")
+    else:
+        logger.info("Database already seeded. Skipping auto-seed.")
+except Exception as e:
+    logger.error(f"Error during automatic database seeding: {e}")
+finally:
+    db.close()
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
