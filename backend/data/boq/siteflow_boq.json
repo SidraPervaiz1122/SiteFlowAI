@@ -1,0 +1,242 @@
+[
+  {
+    "item_number": 1,
+    "category": "Preliminaries",
+    "description": "Mobilization, setting out, temporary works",
+    "unit": "L.S.",
+    "contract_qty": 1.0,
+    "rate_pkr": 75000.0,
+    "amount_pkr": 75000.0,
+    "remark": "Verify site"
+  },
+  {
+    "item_number": 2,
+    "category": "Earthwork",
+    "description": "Excavation in foundations / trenches",
+    "unit": "m³",
+    "contract_qty": 25.0,
+    "rate_pkr": 1800.0,
+    "amount_pkr": 45000.0,
+    "remark": "Provisional; revise after structural design"
+  },
+  {
+    "item_number": 3,
+    "category": "Earthwork",
+    "description": "Backfilling and compaction",
+    "unit": "m³",
+    "contract_qty": 15.0,
+    "rate_pkr": 1200.0,
+    "amount_pkr": 18000.0,
+    "remark": "Provisional"
+  },
+  {
+    "item_number": 4,
+    "category": "Concrete",
+    "description": "PCC/blinding",
+    "unit": "m³",
+    "contract_qty": 5.0,
+    "rate_pkr": 14500.0,
+    "amount_pkr": 72500.0,
+    "remark": "Provisional"
+  },
+  {
+    "item_number": 5,
+    "category": "Concrete",
+    "description": "RCC foundations, columns, beams, slab",
+    "unit": "m³",
+    "contract_qty": 2.44,
+    "rate_pkr": 42000.0,
+    "amount_pkr": 102480.0,
+    "remark": "Preliminary"
+  },
+  {
+    "item_number": 6,
+    "category": "Reinforcement",
+    "description": "Deformed steel reinforcement",
+    "unit": "kg",
+    "contract_qty": 7500.0,
+    "rate_pkr": 285.0,
+    "amount_pkr": 2137500.0,
+    "remark": "Preliminary allowance; structural BBS governs"
+  },
+  {
+    "item_number": 7,
+    "category": "Formwork",
+    "description": "Formwork to RCC works",
+    "unit": "m²",
+    "contract_qty": 76.6,
+    "rate_pkr": 950.0,
+    "amount_pkr": 72770.0,
+    "remark": "Provisional"
+  },
+  {
+    "item_number": 8,
+    "category": "Masonry",
+    "description": "Brick/block masonry",
+    "unit": "m³",
+    "contract_qty": 30.79,
+    "rate_pkr": 15500.0,
+    "amount_pkr": 477245.0,
+    "remark": "Approx. 9\" external + 4.5\" internal walls"
+  },
+  {
+    "item_number": 9,
+    "category": "Plaster",
+    "description": "Internal & external cement plaster",
+    "unit": "m²",
+    "contract_qty": 334.5,
+    "rate_pkr": 520.0,
+    "amount_pkr": 173940.0,
+    "remark": "Approximate"
+  },
+  {
+    "item_number": 10,
+    "category": "Flooring",
+    "description": "Floor tiles including adhesive/screed",
+    "unit": "m²",
+    "contract_qty": 45.3,
+    "rate_pkr": 650.0,
+    "amount_pkr": 29445.0,
+    "remark": "Approx. 65% of covered area"
+  },
+  {
+    "item_number": 11,
+    "category": "Wall Tiling",
+    "description": "Bathroom wall/floor tiles",
+    "unit": "m²",
+    "contract_qty": 14.3,
+    "rate_pkr": 700.0,
+    "amount_pkr": 10010.0,
+    "remark": "Approximate"
+  },
+  {
+    "item_number": 12,
+    "category": "Waterproofing",
+    "description": "Roof waterproofing system",
+    "unit": "m²",
+    "contract_qty": 69.7,
+    "rate_pkr": 500.0,
+    "amount_pkr": 34850.0,
+    "remark": "Approximate roof area"
+  },
+  {
+    "item_number": 13,
+    "category": "Doors",
+    "description": "Complete doors incl. frames/hardware",
+    "unit": "No.",
+    "contract_qty": 5.0,
+    "rate_pkr": 45000.0,
+    "amount_pkr": 225000.0,
+    "remark": "Schedule-based allowance"
+  },
+  {
+    "item_number": 14,
+    "category": "Windows",
+    "description": "Aluminium/UPVC glazed windows",
+    "unit": "No.",
+    "contract_qty": 5.0,
+    "rate_pkr": 28000.0,
+    "amount_pkr": 140000.0,
+    "remark": "Schedule-based allowance"
+  },
+  {
+    "item_number": 15,
+    "category": "Painting",
+    "description": "Internal & external paint system",
+    "unit": "m²",
+    "contract_qty": 334.5,
+    "rate_pkr": 420.0,
+    "amount_pkr": 140490.0,
+    "remark": "Approximate paintable area"
+  },
+  {
+    "item_number": 16,
+    "category": "Ceiling",
+    "description": "False ceiling / ceiling treatment",
+    "unit": "m²",
+    "contract_qty": 52.3,
+    "rate_pkr": 750.0,
+    "amount_pkr": 39225.0,
+    "remark": "Optional/where required"
+  },
+  {
+    "item_number": 17,
+    "category": "Electrical",
+    "description": "Lighting/socket/switch points",
+    "unit": "Point",
+    "contract_qty": 35.0,
+    "rate_pkr": 4500.0,
+    "amount_pkr": 157500.0,
+    "remark": "Preliminary"
+  },
+  {
+    "item_number": 18,
+    "category": "Electrical",
+    "description": "DB, breakers, earthing and accessories",
+    "unit": "L.S.",
+    "contract_qty": 1.0,
+    "rate_pkr": 85000.0,
+    "amount_pkr": 85000.0,
+    "remark": "Complete installation"
+  },
+  {
+    "item_number": 19,
+    "category": "Plumbing",
+    "description": "Water supply & drainage piping",
+    "unit": "L.S.",
+    "contract_qty": 1.0,
+    "rate_pkr": 225000.0,
+    "amount_pkr": 225000.0,
+    "remark": "Complete installation"
+  },
+  {
+    "item_number": 20,
+    "category": "Sanitary",
+    "description": "WC, wash basin, shower, mixers, accessories",
+    "unit": "Set",
+    "contract_qty": 2.0,
+    "rate_pkr": 85000.0,
+    "amount_pkr": 170000.0,
+    "remark": "Two bathrooms"
+  },
+  {
+    "item_number": 21,
+    "category": "Kitchen",
+    "description": "Kitchen cabinets / counter / sink",
+    "unit": "L.S.",
+    "contract_qty": 1.0,
+    "rate_pkr": 275000.0,
+    "amount_pkr": 275000.0,
+    "remark": "Allowance"
+  },
+  {
+    "item_number": 22,
+    "category": "External Works",
+    "description": "Water tank, pump, chambers and connections",
+    "unit": "L.S.",
+    "contract_qty": 1.0,
+    "rate_pkr": 175000.0,
+    "amount_pkr": 175000.0,
+    "remark": "Subject to utility layout"
+  },
+  {
+    "item_number": 23,
+    "category": "External Works",
+    "description": "Car porch / driveway finish",
+    "unit": "m²",
+    "contract_qty": 34.8,
+    "rate_pkr": 850.0,
+    "amount_pkr": 29580.0,
+    "remark": "Approximate"
+  },
+  {
+    "item_number": 24,
+    "category": "External Works",
+    "description": "Main gate and boundary works",
+    "unit": "L.S.",
+    "contract_qty": 1.0,
+    "rate_pkr": 225000.0,
+    "amount_pkr": 225000.0,
+    "remark": "Subject to final architectural detail"
+  }
+]

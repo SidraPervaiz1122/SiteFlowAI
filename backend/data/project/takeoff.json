@@ -1,0 +1,30 @@
+{
+  "takeoff_id": "TK-5M-001",
+  "project_code": "SITEFLOW-5M",
+  "items": [
+    { "item_number": 1, "code": "PRE-01", "description": "Mobilization & Setting Out", "measured_qty": 1.0, "unit": "L.S." },
+    { "item_number": 2, "code": "EW-01", "description": "Excavation in foundations", "measured_qty": 25.0, "unit": "m³" },
+    { "item_number": 3, "code": "EW-02", "description": "Backfilling & compaction", "measured_qty": 15.0, "unit": "m³" },
+    { "item_number": 4, "code": "CON-01", "description": "PCC 1:4:8 blinding", "measured_qty": 5.0, "unit": "m³" },
+    { "item_number": 5, "code": "CON-02", "description": "RCC 1:2:4 footings, columns, slab", "measured_qty": 2.44, "unit": "m³" },
+    { "item_number": 6, "code": "ST-01", "description": "Deformed rebar Grade 60", "measured_qty": 7500.0, "unit": "kg" },
+    { "item_number": 7, "code": "FW-01", "description": "Steel/plywood formwork", "measured_qty": 76.6, "unit": "m²" },
+    { "item_number": 8, "code": "MAS-01", "description": "Brickwork in 1:6 cement mortar", "measured_qty": 30.79, "unit": "m³" },
+    { "item_number": 9, "code": "PLS-01", "description": "1:4 internal/external plaster", "measured_qty": 334.5, "unit": "m²" },
+    { "item_number": 10, "code": "FLR-01", "description": "Ceramic floor tiles", "measured_qty": 45.3, "unit": "m²" },
+    { "item_number": 11, "code": "TIL-01", "description": "Glazed wall tiles", "measured_qty": 14.3, "unit": "m²" },
+    { "item_number": 12, "code": "WP-01", "description": "Bituminous roof waterproofing", "measured_qty": 69.7, "unit": "m²" },
+    { "item_number": 13, "code": "DR-01", "description": "Solid flush doors with frames", "measured_qty": 5.0, "unit": "No." },
+    { "item_number": 14, "code": "WIN-01", "description": "Powder coated aluminum windows", "measured_qty": 5.0, "unit": "No." },
+    { "item_number": 15, "code": "PNT-01", "description": "Emulsion & weather-shield paint", "measured_qty": 334.5, "unit": "m²" },
+    { "item_number": 16, "code": "CLG-01", "description": "Gypsum board false ceiling", "measured_qty": 52.3, "unit": "m²" },
+    { "item_number": 17, "code": "ELE-01", "description": "Concealed electrical points", "measured_qty": 35.0, "unit": "Point" },
+    { "item_number": 18, "code": "ELE-02", "description": "Distribution board & main breaker", "measured_qty": 1.0, "unit": "L.S." },
+    { "item_number": 19, "code": "PLM-01", "description": "PPRC/PVC water supply and drain", "measured_qty": 1.0, "unit": "L.S." },
+    { "item_number": 20, "code": "SAN-01", "description": "Sanitary fixtures 2 sets", "measured_qty": 2.0, "unit": "Set" },
+    { "item_number": 21, "code": "KIT-01", "description": "Kitchen cabinets & SS sink", "measured_qty": 1.0, "unit": "L.S." },
+    { "item_number": 22, "code": "EXT-01", "description": "Overhead/underground water tank", "measured_qty": 1.0, "unit": "L.S." },
+    { "item_number": 23, "code": "EXT-02", "description": "Tough tiles driveway finish", "measured_qty": 34.8, "unit": "m²" },
+    { "item_number": 24, "code": "EXT-03", "description": "M.S. Main gate and boundary", "measured_qty": 1.0, "unit": "L.S." }
+  ]
+}

@@ -1,0 +1,15 @@
+from decimal import Decimal
+
+# Contractual truth
+CONTRACT_BOQ_ITEM_COUNT = 24
+CONTRACT_BOQ_TOTAL_PKR = Decimal("5135535.00")
+PROJECT_COVERED_AREA_SQFT = Decimal("750.00")
+RECOMMENDED_CONTINGENCY_PCT = Decimal("5.00")
+BUDGET_WITH_CONTINGENCY_PKR = Decimal("5392311.75")
+
+# Defaults
+DEFAULT_PROJECT_CODE = "SITEFLOW-5M"
+DEFAULT_PROJECT_NAME = "SiteFlow 5 Marla Model Residence"
+
+# Currency formatting
+CURRENCY_SYMBOL = "PKR"

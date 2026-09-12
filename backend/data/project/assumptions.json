@@ -1,0 +1,43 @@
+{
+  "project_name": "SiteFlow Residential Model — 5 Marla",
+  "plot_size": "25' x 45'",
+  "covered_area_sqft": 750.0,
+  "dimensions": {
+    "covered_area": "25' x 30'",
+    "front_parking_porch": "15'",
+    "single_storey": true
+  },
+  "takeoff_metrics": {
+    "external_wall_length_ft": 110.0,
+    "external_wall_volume_cuft": 825.0,
+    "internal_wall_volume_cuft": 262.5,
+    "total_masonry_m3": 30.79452,
+    "floor_and_roof_area_m2": 69.7,
+    "rcc_allowance_m3": 2.44,
+    "rebar_allowance_kg": 7500.0,
+    "plaster_area_m2": 334.5
+  },
+  "cost_summary": {
+    "covered_area_sqft": 750.0,
+    "contract_boq_total_pkr": 5135535.0,
+    "cost_per_sqft_pkr": 6847.38,
+    "recommended_contingency_pct": 5.0,
+    "recommended_contingency_pkr": 256776.75,
+    "budget_including_contingency_pkr": 5392311.75
+  },
+  "assumptions": [
+    "Structural design is not final engineered design.",
+    "RCC quantities are preliminary allowances.",
+    "Final structural drawings govern.",
+    "Soil investigation may change foundations.",
+    "Rates are indicative working rates.",
+    "Taxes are not included unless explicitly added.",
+    "MEP quantities are preliminary.",
+    "Coordinated shop drawings are required.",
+    "BOQ is preliminary quantity-survey information for budgeting/tender purposes.",
+    "Final IFC drawings require remeasurement.",
+    "Actual plot/setbacks/soil/design changes require recalculation.",
+    "Indicative rates are based on Islamabad/Rawalpindi 2026 working assumptions and are not contractor quotations.",
+    "Final rates must be reconfirmed before procurement."
+  ]
+}

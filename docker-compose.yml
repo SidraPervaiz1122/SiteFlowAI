@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./backend/storage/siteflow.db
+      - SECRET_KEY=siteflow-super-secret-key-for-jwt-signing-2026-production-ready
+      - AI_PROVIDER=mock
+    volumes:
+      - ./backend/storage:/app/backend/storage
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
