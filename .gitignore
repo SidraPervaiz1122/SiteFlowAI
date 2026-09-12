@@ -36,5 +36,7 @@ backend/storage/documents/*
 Thumbs.db
 
 # Antigravity / local tooling
-.gemini/# SQLite runtime files
+.gemini/
+
+# SQLite runtime files
 backend/storage/*.db*
