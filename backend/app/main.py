@@ -46,6 +46,12 @@ app.mount("/storage/uploads", StaticFiles(directory=settings.UPLOADS_DIR), name=
 # Mount API routers
 app.include_router(api_router)
 
+# Serve the built React frontend (single-service deployment)
+FRONTEND_DIST = os.path.normpath(os.path.join(os.path.dirname(__file__), '..', '..', 'frontend', 'dist'))
+if os.path.isdir(FRONTEND_DIST):
+    app.mount('/', StaticFiles(directory=FRONTEND_DIST, html=True), name='frontend')
+
+
 @app.get("/health")
 def health_check():
     return {
